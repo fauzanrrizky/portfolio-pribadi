@@ -64,6 +64,7 @@
                 src="./assets/project-1.png"
                 alt="Project 1"
                 class="project-img"
+                onclick="openModal(this)"
               />
             </div>
             <h2 class="experience-sub-title project-title">Analyzing Customer Churn</h2>
@@ -72,17 +73,21 @@
               <button class="btn-tool-excel">Excel</button>
             </div>
             <p>I Investigated a fictional telecom company called Databel. 
-                I analyze why customers are churning and how to potentially
-                reduce their churn. I used calculated fields and various visualization in Tableau and Excel, 
-                such as dual-axis graph and PivotTables. I also make my graph dynamic 
-                by using filters and parameters, then combine everything into a story (Tableau).</p>
+              I analyzed why customers are churning and how to potentially
+              reduce churn using Tableau and Excel.</p>
             <br>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
                 onclick="window.open('https://docs.google.com/presentation/d/1tyeamXBEQ_xHjfBQtqD0yPou6qLju9tP/edit', '_blank')"
               >
-                Demo
+                Demo Tableau
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://docs.google.com/presentation/d/11QNjDiQ01_uMXYl7q2OBjfED-FqKGqm-/edit#slide=id.p1')"
+              >
+                Demo Excel
               </button>
             </div>
           </div>
@@ -94,6 +99,7 @@
                 src="./assets/project-2.png"
                 alt="Project 2"
                 class="project-img"
+                onclick="openModal(this)"
               />
             </div>
             <h2 class="experience-sub-title project-title">Analyzing Job Market Data</h2>
@@ -119,6 +125,7 @@
                 src="./assets/project-3.png"
                 alt="Project 3"
                 class="project-img"
+                onclick="openModal(this)"
               />
             </div>
             <h2 class="experience-sub-title project-title">Personalized Travel App</h2>
@@ -152,6 +159,7 @@
                 src="./assets/project-4.png"
                 alt="Project 1"
                 class="project-img"
+                onclick="openModal(this)"
               />
             </div>
             <h2 class="experience-sub-title project-title">European Investment Management</h2>
@@ -167,11 +175,55 @@
               >
                 Demo
               </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://github.com/fauzanrrizky/mini-projects/tree/main/European%20Investment%20Management')"
+              >
+                Github
+              </button>
+            </div>
+          </div>
+
+          <!-- Project 5 -->
+          <div class="details-container color-container" category="data-analytics">
+            <div class="article-container">
+              <img
+                src="./assets/project-5.png"
+                alt="Project 1"
+                class="project-img"
+                onclick="openModal(this)"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Personal Finance</h2>
+            <div class="tools-container">
+              <button class="btn-tool-excel">Excel</button>
+            </div>
+            <p>Using Microsoft Excel to track and visualizing personal finance: Budgeting & Investing</p>
+            <br>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://youtu.be/8sR2nZkz3cE')"
+              >
+                Demo
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://docs.google.com/spreadsheets/d/1IcZOv80ZrcjNqbFFKGpDOVGWkoymLgEw/edit#gid=1624679735')"
+              >
+                File
+              </button>
             </div>
           </div>
 
 
         </div>
+      </div>
+
+      <!-- Modal HTML -->
+      <div id="myModal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img class="modal-content" id="img">
       </div>
     </section>
     <section id="contact">
