@@ -298,6 +298,51 @@ section {
   text-decoration: none;
 }
 
+.btn-tool-figma {
+  color: black;
+  background-color: #EAECCC;
+  border: none;
+  border-radius: 5px; /* Rounded corners */
+  padding: 10px 15px;
+  margin-bottom: 0.5rem;
+  font-size: 0.7rem;
+  cursor: default; /* Indicates the button is not clickable */
+  display: inline-block; /* Allows for margin and padding */
+  margin-right: 5px; /* Space between buttons */
+  text-align: center;
+  text-decoration: none;
+}
+
+.btn-tool-uiux {
+  color: black;
+  background-color: #DBCC95;
+  border: none;
+  border-radius: 5px; /* Rounded corners */
+  padding: 10px 15px;
+  margin-bottom: 0.5rem;
+  font-size: 0.7rem;
+  cursor: default; /* Indicates the button is not clickable */
+  display: inline-block; /* Allows for margin and padding */
+  margin-right: 5px; /* Space between buttons */
+  text-align: center;
+  text-decoration: none;
+}
+
+.btn-tool-python {
+  color: black;
+  background-color: #CD8D7A;
+  border: none;
+  border-radius: 5px; /* Rounded corners */
+  padding: 10px 15px;
+  margin-bottom: 0.5rem;
+  font-size: 0.7rem;
+  cursor: default; /* Indicates the button is not clickable */
+  display: inline-block; /* Allows for margin and padding */
+  margin-right: 5px; /* Space between buttons */
+  text-align: center;
+  text-decoration: none;
+}
+
 /* ABOUT SECTION */
 
 #about {
@@ -402,9 +447,16 @@ article .icon {
 }
 
 .project-img {
-  border-radius: 2rem;
-  width: 90%;
-  height: 90%;
+  width: 250px; /* Set the desired width */
+  height: 150px; /* Set the desired height */
+  object-fit: cover; /* Ensure the image covers the area without distortion */
+  border-radius: 10px; /* Optional: Add rounded corners */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.project-img:hover {
+  transform: scale(1.05); /* Slight zoom on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Add a shadow effect on hover */
 }
 
 .project-title {
