@@ -160,6 +160,13 @@ section {
   display: flex;
 }
 
+.section-filter {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  font-size: 0.74rem;
+}
+
 /* PROFILE SECTION */
 
 #profile {
@@ -259,6 +266,36 @@ section {
 
 .btn-container {
   gap: 1rem;
+}
+
+.btn-tool-tableau {
+  color: black;
+  background-color: #C4DFDF;
+  border: none;
+  border-radius: 5px; /* Rounded corners */
+  padding: 10px 15px;
+  margin-bottom: 0.5rem;
+  font-size: 0.7rem;
+  cursor: default; /* Indicates the button is not clickable */
+  display: inline-block; /* Allows for margin and padding */
+  margin-right: 5px; /* Space between buttons */
+  text-align: center;
+  text-decoration: none;
+}
+
+.btn-tool-excel {
+  color: black;
+  background-color: #C3E2C2;
+  border: none;
+  border-radius: 5px; /* Rounded corners */
+  padding: 10px 15px;
+  margin-bottom: 0.5rem;
+  font-size: 0.7rem;
+  cursor: default; /* Indicates the button is not clickable */
+  display: inline-block; /* Allows for margin and padding */
+  margin-right: 5px; /* Space between buttons */
+  text-align: center;
+  text-decoration: none;
 }
 
 /* ABOUT SECTION */
@@ -371,8 +408,10 @@ article .icon {
 }
 
 .project-title {
-  margin: 1rem;
+  margin-top: 1rem;
   color: black;
+  font-size: 1.5rem;
+  margin-bottom: 0.2rem;
 }
 
 .project-btn {

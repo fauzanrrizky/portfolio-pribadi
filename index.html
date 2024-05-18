@@ -10,19 +10,21 @@
   </head>
   <body>
     <nav id="desktop-nav">
-      <div class="logo">Fauzan Rizky</div>
-      <div>
+      <div class="logo">
+        <a href="index.html">Fauzan Rizky</a>
+      </div>
         <ul class="nav-links">
           <li><a href="#about">About</a></li>
-          <li><a href="#experience">Experience</a></li>
-          <li><a href="#projects">Projects</a></li>
+          <li><a href="skills.html">Skills</a></li>
+          <li><a href="projects.html">Projects</a></li>
           <li><a href="#contact">Contact</a></li>
-          <li><a href="newPage.html">newPages</a></li>
         </ul>
       </div>
     </nav>
     <nav id="hamburger-nav">
-      <div class="logo">Fauzan Rizky</div>
+      <div class="logo">
+        <a href="index.html">Fauzan Rizky</a>
+      </div>
       <div class="hamburger-menu">
         <div class="hamburger-icon" onclick="toggleMenu()">
           <span></span>
@@ -31,8 +33,8 @@
         </div>
         <div class="menu-links">
           <li><a href="#about" onclick="toggleMenu()">Abouts</a></li>
-          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
-          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="skills.html" onclick="toggleMenu()">Skills</a></li>
+          <li><a href="projects.html" onclick="toggleMenu()">Projects</a></li>
           <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
         </div>
       </div>
@@ -43,7 +45,7 @@
       </div>
       <div class="section__text">
         <p class="section__text__p1">Hello, I'm</p>
-        <h1 class="title">Fauzan</h1>
+        <h1 class="title">Fauzan Rizky</h1>
         <p class="section__text__p2">Information Systems Student</p>
         <div class="btn-container">
           <button
@@ -61,13 +63,13 @@
             src="./assets/linkedin.png"
             alt="My LinkedIn profile"
             class="icon"
-            onclick="location.href='https://www.linkedin.com/in/mfauzan-rizky/'"
+            onclick="window.open('https://www.linkedin.com/in/mfauzan-rizky/')"
           />
           <img
             src="./assets/github.png"
             alt="My Github profile"
             class="icon"
-            onclick="location.href='https://github.com/fauzanrrizky'"
+            onclick="window.open('https://github.com/fauzanrrizky')"
           />
         </div>
       </div>
@@ -75,6 +77,7 @@
     <section id="about">
       <p class="section__text__p1">Get To Know More</p>
       <h1 class="title">About Me</h1>
+      <br><br>
       <div class="section-container">
         <div class="section__pic-container">
           <img
@@ -117,10 +120,11 @@
         src="./assets/arrow.png"
         alt="Arrow icon"
         class="icon arrow"
-        onclick="location.href='./#experience'"
+        onclick="location.href='./#skills'"
       />
     </section>
-    <section id="experience">
+    <section id="skills">
+        <br>
       <p class="section__text__p1">Explore My</p>
       <h1 class="title">Skills</h1>
       <div class="experience-details-container">
@@ -296,14 +300,6 @@
           </div>
         </div>
       </div>
-      <div class="btn-container">
-        <button
-          class="btn btn-color-2 project-btn"
-          onclick="window.open('https://docs.google.com/presentation/d/1tyeamXBEQ_xHjfBQtqD0yPou6qLju9tP/edit', '_blank')"
-        >
-          Skills and Certifications
-        </button>
-      </div>
       <img
         src="./assets/arrow.png"
         alt="Arrow icon"
@@ -311,6 +307,7 @@
         onclick="location.href='./#projects'"
       />
     </section>
+    <br><br><br>
     <section id="projects">
       <p class="section__text__p1">Browse My Recent</p>
       <h1 class="title">Projects</h1>
@@ -325,11 +322,8 @@
               />
             </div>
             <h2 class="experience-sub-title project-title">Analyzing Customer Churn</h2>
-            <p>I Investigated a dataset form a fictional telecom company called Databel. 
-                I analyze why customers are churning and how to potentially
-                reduce their churn. I used calculated fields and various visualization in Tableau, 
-                such as dual-axis graph and scatter plots. I also make my graph dynamic 
-                by using filters and parameters, then combine everything into a story.</p>
+            <p> I analyzed why customers are churning and how to potentially
+                reduce churn using Tableau.</p>
             <br>
             <div class="btn-container">
               <button
@@ -349,10 +343,8 @@
               />
             </div>
             <h2 class="experience-sub-title project-title">Analyzing Customer Churn</h2>
-            <p>I Investigate a dataset form a fictional telecom company called Databel 
-                and analyze their churn rates using Microsoft Excel. I analyze why customers are churning and 
-                how to reduce churn. I used a calculated columns and fields, PivotTables, 
-                and create a dashboard.</p>
+            <p>I analyzed why customers are churning and how to potentially
+                reduce churn using Microsoft Excel.</p>
             <br>
             <div class="btn-container">
               <button
@@ -371,19 +363,15 @@
                 class="project-img"
               />
             </div>
-            <h2 class="experience-sub-title project-title">Project Three</h2>
+            <h2 class="experience-sub-title project-title">Analyzing Job Market Data</h2>
+            <p>I Investigated a fictional recruitment company to investigate what skills are most in-demand for data scientists, data analysts, and data engineers.</p>
+            <br>
             <div class="btn-container">
-              <button
+                <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
+                onclick="window.open('https://docs.google.com/presentation/d/13z5s7OZrqrTMVTabgLXZrfGkqMpZwu2g/edit#slide=id.p1','_blank')"
               >
-                Github
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
-                Live Demo
+                Demo
               </button>
             </div>
           </div>
@@ -392,7 +380,7 @@
       <div class="btn-container">
         <button
           class="btn btn-color-2 project-btn"
-          onclick="window.open('https://docs.google.com/presentation/d/1tyeamXBEQ_xHjfBQtqD0yPou6qLju9tP/edit', '_blank')"
+          onclick="window.location.href='projects.html'"
         >
           More Projects
         </button>
@@ -414,7 +402,7 @@
             alt="Email icon"
             class="icon contact-icon email-icon"
           />
-          <p><a href="mailto:mfauzan.rizky@gmail.com">mfauzan.rizky@gmail.com"</a></p>
+          <p><a href="mailto:mfauzan.rizky@gmail.com">mfauzan.rizky@gmail.com</a></p>
         </div>
         <div class="contact-info-container">
           <img
@@ -431,7 +419,7 @@
         <div class="nav-links-container">
           <ul class="nav-links">
             <li><a href="#about">About</a></li>
-            <li><a href="#experience">Experience</a></li>
+            <li><a href="#skills">Skills</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
