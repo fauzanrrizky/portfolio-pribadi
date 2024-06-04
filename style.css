@@ -388,6 +388,21 @@ section {
   text-decoration: none;
 }
 
+.btn-tool-airflow {
+  color: black;
+  background-color: #b2e2f6;
+  border: none;
+  border-radius: 5px; /* Rounded corners */
+  padding: 10px 15px;
+  margin-bottom: 0.5rem;
+  font-size: 0.7rem;
+  cursor: default; /* Indicates the button is not clickable */
+  display: inline-block; /* Allows for margin and padding */
+  margin-right: 5px; /* Space between buttons */
+  text-align: center;
+  text-decoration: none;
+}
+
 /* ABOUT SECTION */
 
 #about {
