@@ -169,12 +169,6 @@ section {
 
 /* PROFILE SECTION */
 
-/* #profile {
-  display: flex;
-  justify-content: center;
-  gap: 5rem;
-  height: 80vh;
-} */
 
 #profile {
   display: flex;
@@ -188,14 +182,6 @@ section {
   position: relative;
 }
 
-/* #profile {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 80vh;
-  overflow: hidden;
-} */
 
 #background-video {
   position: absolute;
@@ -215,12 +201,6 @@ section {
   z-index: 1;
 }
 
-/* .section_pic-container {
-  display: flex;
-  height: 400px;
-  width: 400px;
-  margin: auto 0;
-} */
 
 
 .section__pic-container {
@@ -233,7 +213,7 @@ section {
 .section__text {
   align-self: center;
   text-align: center;
-  margin-left: 5rem;
+  margin-left: 1rem;
 }
 
 .section__text p {
