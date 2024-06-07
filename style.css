@@ -169,12 +169,59 @@ section {
 
 /* PROFILE SECTION */
 
-#profile {
+/* #profile {
   display: flex;
   justify-content: center;
   gap: 5rem;
   height: 80vh;
+} */
+
+#profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+  position: relative;
 }
+
+/* #profile {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  overflow: hidden;
+} */
+
+#background-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -1;
+  background-size: cover;
+  transition: 1s opacity;
+}
+
+.section_pic-container, .section_text {
+  position: relative;
+  z-index: 1;
+}
+
+/* .section_pic-container {
+  display: flex;
+  height: 400px;
+  width: 400px;
+  margin: auto 0;
+} */
+
 
 .section__pic-container {
   display: flex;
@@ -186,6 +233,7 @@ section {
 .section__text {
   align-self: center;
   text-align: center;
+  margin-left: 5rem;
 }
 
 .section__text p {
@@ -234,6 +282,10 @@ section {
   padding: 1rem;
   width: 8rem;
   border-radius: 2rem;
+}
+
+.typing {
+  color: rgb(190, 0, 0) ;
 }
 
 .btn-color-1,
@@ -406,6 +458,7 @@ section {
 /* ABOUT SECTION */
 
 #about {
+  padding-top: 10px;
   position: relative;
 }
 
@@ -498,6 +551,7 @@ article .icon {
 /* PROJECTS SECTION */
 
 #projects {
+  padding-top: 10px;
   position: relative;
 }
 
@@ -534,6 +588,7 @@ article .icon {
 /* CONTACT */
 
 #contact {
+  padding-top: 10px;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -630,3 +685,5 @@ footer p {
   text-decoration: none;
   cursor: pointer;
 }
+
+
